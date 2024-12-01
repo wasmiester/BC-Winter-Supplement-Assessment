@@ -16,7 +16,7 @@ This project is a rules engine for determining eligibility and calculating the W
 2. **Clone the Repository**  
    Clone the project files to your local machine:
    ```bash
-   git clone https://github.com/wasmiester/BC-Winter-Supplement-Assessment/tree/main
+   git clone https://github.com/wasmiester/BC-Winter-Supplement-Assessment.git
    cd BC-Winter-Supplement-Assessment
    ```
 
