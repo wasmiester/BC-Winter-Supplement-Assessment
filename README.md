@@ -111,7 +111,7 @@ This project is a rules engine for determining eligibility and calculating the W
    - Internet connectivity.
 
 2. **No Messages Received**  
-   Ensure the Winter Supplement Calculator is publishing input data to the correct MQTT topic.
+   Ensure the Winter Supplement Calculator is publishing input data to the correct MQTT topic. I was unable to receive messages via the web app broker, but the calculations are functioning correctly when retrieving the ID using the wildcard '#'
 
 3. **Test Failures**  
    Re-check your `calculate_winter_supplement` function logic or MQTT integration.
