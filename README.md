@@ -114,4 +114,13 @@ This project is a rules engine for determining eligibility and calculating the W
    Ensure the Winter Supplement Calculator is publishing input data to the correct MQTT topic. I was unable to receive messages via the web app broker, but the calculations are functioning correctly when retrieving the ID using the wildcard '#'
 
 3. **Test Failures**  
-   Re-check your `calculate_winter_supplement` function logic or MQTT integration.
+   Re-check your input data format is like the example givne above
+   
+4. **Subscribed  but not recieving message from web app**  
+   The web app refuses to send a message back after the engine is subscribed. However a self made topic ID in the test module and copying IDs from the wildcard (BRE/calculateWinterSupplementInput/#) fixes this issue. Below is an example of using a wild card ID
+Grabbing the ID from wildcard:
+![image](https://github.com/user-attachments/assets/13967422-a205-43eb-8410-db15ffa9768a)
+
+Using grabed Id in rules engine:
+![image](https://github.com/user-attachments/assets/466af60c-c252-49f5-b7d9-07eb4a41ec23)
+
