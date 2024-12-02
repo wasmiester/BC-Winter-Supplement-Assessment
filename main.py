@@ -5,7 +5,7 @@ import sys
 from dotenv import load_dotenv
 import uuid
 
-load_dotenv()
+load_dotenv(".env")
 
 MQTT_BROKER = os.getenv("MQTT_BROKER")
 MQTT_PORT = int(os.getenv("MQTT_PORT"))

@@ -10,32 +10,33 @@ This project is a rules engine for determining eligibility and calculating the W
 
 1. **Prerequisites**  
    Ensure the following are installed on your system:
-   - Python 3.8 or later
-   - `pip` (Python package manager)
+   - Python 3.8 or later  
+   - `pip` (Python package manager)  
 
 2. **Clone the Repository**  
-   Clone the project files to your local machine:
+   Clone the project files to your local machine:  
    ```bash
-   git clone https://github.com/wasmiester/BC-Winter-Supplement-Assessment.git
+   git clone https://github.com/wasmiester/BC-Winter-Supplement-Assessment/tree/main
    cd BC-Winter-Supplement-Assessment
    ```
 
-3. **Install Dependencies**  
-   Install the required Python libraries by running:
+3. **Configure Environment Variables**  
+   A `sample.env` file is provided in the repository. Copy it to a `.env` file to set up your environment variables:  
    ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Environment Variables**  
-   Create a `.env` file in the root directory and include the following variables:
+   cp sample.env .env
+   ```  
+   Edit the `.env` file if needed to configure the MQTT broker or port:  
    ```plaintext
    MQTT_BROKER=test.mosquitto.org
    MQTT_PORT=1883
    ```
-   Update these values if connecting to a different broker.
 
----
-
+4. **Install Dependencies**  
+   Install the required Python libraries:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
 ### **Execution Instructions**
 
 1. **Run the Rules Engine**  
