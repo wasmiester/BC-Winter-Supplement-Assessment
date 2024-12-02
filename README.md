@@ -116,12 +116,12 @@ This project is a rules engine for determining eligibility and calculating the W
 3. **Test Failures**  
    Re-check your input data format is like the example givne above
    
-4. **Subscribed  but not recieving message from web app**  
-   The web app refuses to send a message back after the engine is subscribed. However a self made topic ID in the test module and copying IDs from the wildcard (BRE/calculateWinterSupplementInput/#) fixes this issue. Below is an example of using a wild card ID
+4. **Alternate methohds of testing MQTT server apart from web app**  
+   There are 2 other ways to test the engine apart from the web app and those are self made topic ID in the test module and copying topic IDs from the wildcard (BRE/calculateWinterSupplementInput/#). Below is an example of using a wild card ID
 
 Grabbing the ID from wildcard:
 ![image](https://github.com/user-attachments/assets/13967422-a205-43eb-8410-db15ffa9768a)
 
-Using grabed Id in rules engine:
+Using grabed ID in rules engine and getting client viabilty along with Suppliment value:
 ![image](https://github.com/user-attachments/assets/466af60c-c252-49f5-b7d9-07eb4a41ec23)
 
