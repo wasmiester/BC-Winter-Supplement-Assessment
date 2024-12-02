@@ -34,7 +34,7 @@ This project is a rules engine for determining eligibility and calculating the W
 4. **Install Dependencies**  
    Install the required Python libraries:  
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirement.txt
    ```
    
 ### **Execution Instructions**
