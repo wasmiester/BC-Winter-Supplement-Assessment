@@ -118,6 +118,7 @@ This project is a rules engine for determining eligibility and calculating the W
    
 4. **Subscribed  but not recieving message from web app**  
    The web app refuses to send a message back after the engine is subscribed. However a self made topic ID in the test module and copying IDs from the wildcard (BRE/calculateWinterSupplementInput/#) fixes this issue. Below is an example of using a wild card ID
+
 Grabbing the ID from wildcard:
 ![image](https://github.com/user-attachments/assets/13967422-a205-43eb-8410-db15ffa9768a)
 
