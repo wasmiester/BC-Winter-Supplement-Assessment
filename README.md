@@ -89,7 +89,7 @@ This project is a rules engine for determining eligibility and calculating the W
 2. **Run the Tests**  
    Execute the tests using the following command:
    ```bash
-   python -m unittest test_main.py
+   python -m unittest test_module.py
    ```
 
 3. **Expected Test Output**  
